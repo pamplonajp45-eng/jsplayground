@@ -29,13 +29,9 @@ class Counter {
     }                        // by one(subtract)
 }
 
-const counter1 = new counter();// new (method) - calling it twice will jsut set counter 1 and counter equal to differemt instances
-const counter2 = new counter();  //the values returned by the getInstance method on counter 1 and counter 2 ,               
-                                // effectively returned to different instances: they aren't strictly equal!
-
-console.log (counter1.getInsance() === counter2.getInstance());
+const singletonCounter = Object.freeze(new Counter()); //we should freeze the instance as well. 
+export default singletonCounter;                       // The Object.freeze method makes sure that 
+                                                        //consuming code cannot modify the Singleton.
 
 
-
-
-
+//https://www.patterns.dev/vanilla/singleton-pattern/
