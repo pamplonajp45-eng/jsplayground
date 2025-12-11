@@ -1,5 +1,4 @@
-import { useScroll } from "framer-motion";
-import { useState } from "react";
+
 
 function Hello (){ // component function + return.
     return <h1>Hello!</h1>;
