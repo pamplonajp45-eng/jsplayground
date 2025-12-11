@@ -9,4 +9,10 @@ function calculatePrice(grams){
 // Test cases
 console.log(calculatePrice(100));  // Should output: ₱400
 console.log(calculatePrice(250));  // Should output: ₱1000
-  
+
+
+function calculatedSum (n){
+    let x = 1;
+    let total = x + n;
+    return {total};
+}
