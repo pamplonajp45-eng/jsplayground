@@ -1,9 +1,8 @@
-const[timer, setTimer]  = ({
-    seconds:0,
-    isRunning:false,
-    isFalse:false,
-});
+const animals = new Map();
+animals.set("cat", "meow");
+animals.set("dog", "bark");
+animals.set("cow", "moo");
 
-const [history, setHistory]  = useState([]);
+console.log(animals.get("cat"));
 
-setSeconds(prev  => prev + 1);
+const current = nums[i];
