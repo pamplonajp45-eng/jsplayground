@@ -15,12 +15,17 @@ let contacts = [
     email: "libero@convallis.edu",
   },
 ];
-let otherContacts = {
-  name: "Maisie",
-  phone: "0913 531 3030",
-  email: "risus.Quisque@urna.ca.",
-};
 // contacts.unshift(otherContacts);
-contacts.push(otherContacts);
-console.log(contacts.length);
-console.log(contacts);
+let newName = prompt("What is your name");
+let newPhone = prompt("enter your contact number", +63);
+let newEmail = prompt("Enter your email address");
+
+let newContacts = {
+  name: newName,
+  phone: newPhone,
+  email: newEmail,
+};
+
+contacts.push(newContacts);
+console.log(contacts[0]);
+console.log(contacts[contacts.length - 1]);

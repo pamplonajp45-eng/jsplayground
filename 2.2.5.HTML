@@ -1,0 +1,33 @@
+<script>
+  let contacts = [
+    {
+      name: "Maxwell Wright",
+      phone: "(0191) 719 6495",
+      email: "Curabitur.egestas.nunc@nonummyac.co.uk",
+    },
+    {
+      name: "Raja Villarreal",
+      phone: "0866 398 2895",
+      email: "posuere.vulputate@sed.com",
+    },
+    {
+      name: "Helen Richards",
+      phone: "0800 1111",
+      email: "libero@convallis.edu",
+    },
+  ];
+  // contacts.unshift(otherContacts);
+  let newName = prompt("What is your name");
+  let newPhone = prompt("enter your contact number", +63);
+  let newEmail = prompt("Enter your email address");
+
+  let newContacts = {
+    name: newName,
+    phone: newPhone,
+    email: newEmail,
+  };
+
+  contacts.push(newContacts);
+  console.log(contacts[0]);
+  console.log(contacts[contacts.length - 1]);
+</script>
