@@ -23,5 +23,8 @@ let OtherBooks = [
   },
 ];
 JavaScriptProgrammingBooks.push(OtherBooks);
+
+JavascriptProgrammingBooks[0].title =
+  "Speaking JavaScript: An In-Depth Guide for Programmers";
 console.log(JavaScriptProgrammingBooks.length);
 console.log(JavaScriptProgrammingBooks[1].title);
