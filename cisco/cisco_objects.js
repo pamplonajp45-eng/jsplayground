@@ -1,7 +1,7 @@
 let ticket = {
   from: "Tanauan",
   to: "San Pablo",
-  price: 300,
+  price: 300,wwwwwww
 };
 let person = {};
 person.name = "Jordan";

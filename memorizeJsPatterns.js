@@ -10,6 +10,8 @@ const [hobby, setHobby] = useState(true);
 const[time, setTime] = useState (0);
 
 
+
+
 //Props pattern ( parent to child communication)
 <Child name ="Mary" age ={21} />
 
